@@ -17,11 +17,17 @@ public class App
 		l2=(int)Math.sqrt((x3-x1)*(x3-x1)+(y3-y1)*(y3-y1));
 		System.out.println(l1);
 		System.out.println(l2);
-		if(l1==l2) {
-			System.out.println("Lengths are equal");
-		}
-		else {
-			System.out.println("Lengths are not equal");
-		}
+		
+		Integer a=new Integer(l1);
+        Integer b=new Integer(l2);
+        int compare=a.compareTo(b);
+        
+        if(compare>0) {
+      	  System.out.println("l1 is greater than y");
+        }else if(compare<0) {
+      	  System.out.println("l1 is less than y");
+        }else {
+      	  System.out.println("l1 is equal to l2");
+        }
     }
 }
