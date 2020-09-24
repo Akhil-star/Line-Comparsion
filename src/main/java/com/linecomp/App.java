@@ -8,6 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
+	    System.out.println("Welcome to Line Comparsion program");
     	int x1,x2,y1,y2,x3,y3;
 		int  l1,l2;
 		x1=1; y1=1;
