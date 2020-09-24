@@ -9,9 +9,9 @@ public class App
     public static void main( String[] args )
     {
 	    System.out.println("Welcome to Line Comparsion program");
-<<<<<<< HEAD
+
     	
-=======
+
 
     	int x1,x2,y1,y2,x3,y3;
 		int  l1,l2;
@@ -34,6 +34,6 @@ public class App
         }else {
       	  System.out.println("l1 is equal to l2");
         }
->>>>>>> UC3
+
     }
 }
